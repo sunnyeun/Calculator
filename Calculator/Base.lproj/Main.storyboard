@@ -23,19 +23,50 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="99" id="gCG-x4-28E"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFq-eo-Bgt">
+                                <rect key="frame" x="16" y="120" width="139" height="142"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="4iS-Lr-HjG"/>
+                                    <constraint firstAttribute="width" constant="139" id="NIv-vw-f6r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="85"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T9e-Da-CCj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqp-ve-Ejb">
+                                <rect key="frame" x="220" y="120" width="139" height="142"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="9ed-Ly-wIM"/>
+                                    <constraint firstAttribute="height" constant="142" id="GU7-Gi-vLF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="85"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="tap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bTm-or-lR0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DcW-1C-QdA" secondAttribute="trailing" constant="16" id="B1C-wx-JwD"/>
                             <constraint firstItem="DcW-1C-QdA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-7" id="VQw-Je-YUZ"/>
                             <constraint firstItem="DcW-1C-QdA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ba2-yM-Syj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zqp-ve-Ejb" secondAttribute="trailing" constant="16" id="bk3-eW-qTE"/>
+                            <constraint firstItem="Zqp-ve-Ejb" firstAttribute="top" secondItem="DcW-1C-QdA" secondAttribute="bottom" constant="7" id="cuy-wn-7Ar"/>
+                            <constraint firstItem="NFq-eo-Bgt" firstAttribute="top" secondItem="DcW-1C-QdA" secondAttribute="bottom" constant="8" id="tq8-pW-Hc4"/>
+                            <constraint firstItem="NFq-eo-Bgt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="x5c-YP-7MS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="displayLabel" destination="DcW-1C-QdA" id="M3B-Rp-Cnz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
