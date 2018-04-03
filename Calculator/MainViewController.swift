@@ -1,7 +1,7 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
+    
     enum Operations {
         case noop, add, subtract, multiply, divide, equal
     }
@@ -33,24 +33,24 @@ class MainViewController: UIViewController {
             
         } else {
             switch (operation) {
-                case .add:
-                    accumulator = accumulator + Int(displayLabel.text!)!
-                case . subtract:
-                    accumulator = accumulator - Int(displayLabel.text!)!
-                case .multiply:
-                    accumulator = accumulator * Int(displayLabel.text!)!
-                case .divide:
-                    accumulator = accumulator / Int(displayLabel.text!)!
+            case .add:
+                accumulator = accumulator + Int(displayLabel.text!)!
+            case . subtract:
+                accumulator = accumulator - Int(displayLabel.text!)!
+            case .multiply:
+                accumulator = accumulator * Int(displayLabel.text!)!
+            case .divide:
+                accumulator = accumulator / Int(displayLabel.text!)!
             default:
                 accumulator = Int(displayLabel.text!)!
             }
-            if symbol == "➕"{
-            operation = .add
-            } else if symbol == "➖"{
+            if symbol == "+"{
+                operation = .add
+            } else if symbol == "−"{
                 operation = .subtract
-            } else if symbol == "✖️"{
+            } else if symbol == "×"{
                 operation = .multiply
-            } else if symbol == "➗"{
+            } else if symbol == "÷"{
                 operation = .divide
             } else if symbol == "=" {
                 operation = .equal
@@ -61,4 +61,3 @@ class MainViewController: UIViewController {
         }
     }
 }
-

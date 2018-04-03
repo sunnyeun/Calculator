@@ -12,6 +12,12 @@
 		D766D5332058C3030062BD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D766D5312058C3030062BD05 /* Main.storyboard */; };
 		D766D5352058C3030062BD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D766D5342058C3030062BD05 /* Assets.xcassets */; };
 		D766D5382058C3030062BD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D766D5362058C3030062BD05 /* LaunchScreen.storyboard */; };
+		D7CB66F620730888000C6BDE /* Swamp Witch.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CB66F520730887000C6BDE /* Swamp Witch.ttf */; };
+		D7CB66F920730AE2000C6BDE /* Geostar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CB66F820730AE2000C6BDE /* Geostar-Regular.ttf */; };
+		D7CB66FB20731126000C6BDE /* TESLA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CB66FA20731125000C6BDE /* TESLA.ttf */; };
+		D7CB66FD207318B5000C6BDE /* nasalization-rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7CB66FC207318B5000C6BDE /* nasalization-rg.ttf */; };
+		D7CB6700207323B3000C6BDE /* LaunchingLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CB66FF207323B3000C6BDE /* LaunchingLogo.png */; };
+		D7CB670720732D12000C6BDE /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CB670620732D12000C6BDE /* BG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		D766D5342058C3030062BD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D766D5372058C3030062BD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D766D5392058C3030062BD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7CB66F520730887000C6BDE /* Swamp Witch.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Swamp Witch.ttf"; path = "Calculator/Fonts/Swamp Witch.ttf"; sourceTree = SOURCE_ROOT; };
+		D7CB66F820730AE2000C6BDE /* Geostar-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geostar-Regular.ttf"; path = "../../../../../../../../Downloads/Geostar/Geostar-Regular.ttf"; sourceTree = "<group>"; };
+		D7CB66FA20731125000C6BDE /* TESLA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = TESLA.ttf; path = ../../../../../../../../Downloads/tesla/TESLA.ttf; sourceTree = "<group>"; };
+		D7CB66FC207318B5000C6BDE /* nasalization-rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "nasalization-rg.ttf"; path = "../../../../../../../../Downloads/nasalization/nasalization-rg.ttf"; sourceTree = "<group>"; };
+		D7CB66FF207323B3000C6BDE /* LaunchingLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchingLogo.png; path = Images/LaunchingLogo.png; sourceTree = SOURCE_ROOT; };
+		D7CB670620732D12000C6BDE /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG.png; path = ../../../../../../../../Downloads/BG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 		D766D52C2058C3030062BD05 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				D7CB66F720730AA5000C6BDE /* Fonts */,
+				D7CB66FE207323A2000C6BDE /* Images */,
 				D766D52D2058C3030062BD05 /* AppDelegate.swift */,
 				D766D52F2058C3030062BD05 /* MainViewController.swift */,
 				D766D5312058C3030062BD05 /* Main.storyboard */,
@@ -62,6 +76,26 @@
 				D766D5392058C3030062BD05 /* Info.plist */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		D7CB66F720730AA5000C6BDE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7CB66FC207318B5000C6BDE /* nasalization-rg.ttf */,
+				D7CB66F820730AE2000C6BDE /* Geostar-Regular.ttf */,
+				D7CB66FA20731125000C6BDE /* TESLA.ttf */,
+				D7CB66F520730887000C6BDE /* Swamp Witch.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D7CB66FE207323A2000C6BDE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7CB670620732D12000C6BDE /* BG.png */,
+				D7CB66FF207323B3000C6BDE /* LaunchingLogo.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +159,13 @@
 			files = (
 				D766D5382058C3030062BD05 /* LaunchScreen.storyboard in Resources */,
 				D766D5352058C3030062BD05 /* Assets.xcassets in Resources */,
+				D7CB66F620730888000C6BDE /* Swamp Witch.ttf in Resources */,
+				D7CB66FD207318B5000C6BDE /* nasalization-rg.ttf in Resources */,
 				D766D5332058C3030062BD05 /* Main.storyboard in Resources */,
+				D7CB670720732D12000C6BDE /* BG.png in Resources */,
+				D7CB66FB20731126000C6BDE /* TESLA.ttf in Resources */,
+				D7CB6700207323B3000C6BDE /* LaunchingLogo.png in Resources */,
+				D7CB66F920730AE2000C6BDE /* Geostar-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
