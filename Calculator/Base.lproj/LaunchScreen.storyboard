@@ -19,18 +19,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="BG.png" translatesAutoresizingMaskIntoConstraints="NO" id="JmH-O6-q9R">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="JTA-2t-5fV"/>
-                                    <constraint firstAttribute="height" constant="667" id="wky-Ul-tpz"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchingLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="whk-st-90c">
                                 <rect key="frame" x="39" y="254" width="296" height="159"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="159" id="01K-S9-C4m"/>
                                     <constraint firstAttribute="width" secondItem="whk-st-90c" secondAttribute="height" multiplier="271:146" id="1hC-fo-S3h"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="topRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="BG.png" translatesAutoresizingMaskIntoConstraints="NO" id="dfO-Ax-SgQ">
+                                <rect key="frame" x="0.0" y="0.0" width="396" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="Tyk-KY-fCe"/>
+                                    <constraint firstAttribute="width" constant="396" id="q5X-rH-bFK"/>
                                 </constraints>
                             </imageView>
                         </subviews>
